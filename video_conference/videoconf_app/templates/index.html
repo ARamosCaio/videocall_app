@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'videocall_app/css/register.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form action="{% url 'register'%}" method="post">
+                    {% csrf_token %}
+                    <h2>Register</h2>
+                    <p>Create an account</p>
+                    <hr>
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter username" name="username" required>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="password1"><b>Password</b></label>
+                    <input type="password" placeholder="Enter password" name="password1" required>
+                    <label for="password2"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Confirm password" name="password2" required>
+                    <hr>
+                    <button type="submit" class="registerbtn">Register</button>
+                </form>
+                <div class="signin">
+                    <p>Already have an account? <a href="{#}">Sign In</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
