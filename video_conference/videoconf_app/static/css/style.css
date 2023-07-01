@@ -23,7 +23,7 @@ body{
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
-/*.container .registration{
+.container .registration{
   display: none;
 }
 #check:checked ~ .registration{
@@ -34,7 +34,7 @@ body{
 }
 #check{
   display: none;
-}*/
+}
 .container .form{
   padding: 2rem;
 }
@@ -88,4 +88,15 @@ body{
 }
 .signup label:hover{
   text-decoration: underline;
+}
+
+.dashboard{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
 }
