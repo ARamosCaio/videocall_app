@@ -22,7 +22,7 @@ body{
   border-radius: 7px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
-
+/*
 .container .registration{
   display: none;
 }
@@ -34,7 +34,7 @@ body{
 }
 #check{
   display: none;
-}
+}*/
 .container .form{
   padding: 2rem;
 }
@@ -91,12 +91,39 @@ body{
 }
 
 .dashboard{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  max-width: 430px;
+  padding: 2em;
+}
+
+.dashboard h1{
+  text-align: center;
+  margin: 2em;
+}
+.dashboard a{
+  height: 100px;
   width: 100%;
+  padding: 0 60px;
+  margin-bottom: 1.3rem;
+  font-size: 17px;
+  border: 3px solid #009579;
+  border-radius: 6px;
+  outline: none;
+  text-decoration: none;
+}
+
+.dashboard a.button{
+  color: #009579;
   background: #fff;
-  border-radius: 7px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 2rem;
+
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+
+.dashboard a.button:hover{
+  background: #009579;
+  color: #ddd;
 }
