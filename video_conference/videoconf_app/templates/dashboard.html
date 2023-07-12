@@ -13,8 +13,8 @@
             <div class="dashboard">
                 <h1>Welcome, {{ name }}</h1>
                 <a href="{% url 'meeting' %}" class="button">New Meeting</a>
-                <a href="#" class="button">Join a Meeting</a>
-                <a href="#" class="button">Logout</a>
+                <a href="{% url 'join_meeting' %}" class="button">Join a Meeting</a>
+                <a href="{% url 'logout' %}" class="button">Logout</a>
             </div>
         </div>
     </body>
