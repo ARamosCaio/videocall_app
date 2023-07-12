@@ -42,3 +42,15 @@ def videocall(request):
         'videocall.html',
         {'name': f"{request.user.first_name} {request.user.last_name}"},
     )
+
+@login_required
+def logout_view(request):
+    logout(request)
+    return redirect("/login")
+
+@login_required
+def join_meeting(request):
+    if request.method == 'POST':
+        roomID = request.POST['roomID']
+        return redirect(f'/meeting?roomID={roomID}')
+    return render(request, 'join_meeting.html')
