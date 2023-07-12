@@ -92,13 +92,14 @@ body{
 }
 
 .dashboard{
-  padding: 2em;
+  padding: 1em;
 }
 
 .dashboard h1{
   text-align: center;
-  margin: 2em;
+  margin: 2rem;
 }
+
 .dashboard a{
   display: flex;
   height: 4em;
@@ -128,3 +129,4 @@ body{
   background: #006653;
   color: #eee;
 }
+
