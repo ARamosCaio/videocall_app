@@ -1,7 +1,7 @@
 # Video Conference App
 
-# Description
+## Description
 
 Using django to create a videoconference app 
 
-# Tools Used
+## Tools Used
