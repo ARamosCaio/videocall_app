@@ -13,3 +13,6 @@ Using django to create a videoconference app
 - JavaScript
 
 ## What I've Learned
+
+- More about using Django to create views
+- A little about front-end
