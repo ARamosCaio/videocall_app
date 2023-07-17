@@ -2,7 +2,7 @@
 
 ## Description
 
-Using django to create a videoconference app 
+Using Django to create a videoconference app 
 
 ## Tools Used
 
@@ -16,3 +16,4 @@ Using django to create a videoconference app
 
 - More about using Django to create views
 - A little about front-end
+- How to use ZegoCloud
